@@ -61,3 +61,66 @@ if (secondeDebut >= 0 && secondeDebut <= 59)
 		secondeDebut = Number(prompt("Entrez les secondes de départ (0 à 59)"));
 	}
 }
+
+			/*
+			*
+			*   HEURE De Fin
+			*
+			*/
+
+var heureFin = Number(prompt("Entrez l'heure de fin (0 à 23)")) ;
+
+if (heureFin >= 0 && heureFin <= 23)
+{
+	heureFin = heureFin;
+
+}else
+{
+	while( heureFin < 0 || heureFin > 23)
+
+	{
+		heureFin = Number(prompt("Entrez l'heure de fin (0 à 23)"));
+	}
+}
+
+			/*
+			*
+			*  Minute De Fin
+			*
+			*/
+
+var minuteFin = Number(prompt("Entrez les minutes de fin (0 à 59)")) ;
+
+if (minuteFin >= 0 && minuteFin <= 59)
+{
+	minuteFin = minuteFin;
+
+}else
+{
+	while( minuteFin < 0 || minuteFin > 59)
+
+	{
+		minuteFin = Number(prompt("Entrez les minutes de fin (0 à 59)"));
+	}
+}
+
+			/*
+			*
+			*Seconde De Fin
+			*
+			*/	
+
+var secondeFin = Number(prompt("Entrez les secondes de fin (0 à 59)")) ;
+
+if (secondeFin >= 0 && secondeFin <= 59)
+{
+	secondeFin = secondeFin;
+
+}else
+{
+	while( secondeFin < 0 || secondeFin > 59)
+
+	{
+		secondeFin = Number(prompt("Entrez les secondes de fin (0 à 59)"));
+	}
+}
