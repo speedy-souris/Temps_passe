@@ -1,5 +1,5 @@
-#Gestionnaire de Temps passé
+GESTIONNAIRE DE TEMPS PASSE
 
 Cette page web à pour but de déterminer le temps passé sur une tache précise
 
-en heure minute et seconde
+En Heure Minute et Seconde
