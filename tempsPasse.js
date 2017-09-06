@@ -1,3 +1,36 @@
+function TempsPasse(hDepart, mDepart, sDepart, hFin, mFin, sFin)
+{
+	if (sFin < sDepart)
+	{
+		var sT = (60 - sDepart) + sfin;
+	
+	}else 
+	{
+		var sT = sFin - sDepart;
+	}
+	
+	if (mFin < mDepart)
+	{
+		var mT = (60 - mDepart) + mFin;
+	
+	}else
+	{
+		var mT = mFin - mDepart;
+	}
+
+	if (hFin < hDepart)
+	{
+		var hT = (24 - hDepart) + hFin;
+	
+	}else
+	{
+		var hT = hFin - hDepart;
+	}
+
+
+return alert('Temps Passé ' + hT + ' H ' + mT + ' MN ' + sT + ' S' );
+}
+
 
 			/*
 			*
@@ -124,3 +157,6 @@ if (secondeFin >= 0 && secondeFin <= 59)
 		secondeFin = Number(prompt("Entrez les secondes de fin (0 à 59)"));
 	}
 }
+
+TempsPasse(heureDebut, minuteDebut, secondeDebut, heureFin, minuteFin, secondeFin);			
+			
